@@ -33,6 +33,7 @@ proc main() =
   if window == nil:
     echo "Could not build window, exiting..."
     glfwTerminate();
+    quit(-1)
 
   glfwMakeContextCurrent(window);
 
