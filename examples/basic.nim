@@ -1,4 +1,4 @@
-import glfw3
+import glfw
 
 proc main() =
   if glfwInit() != GLFW_TRUE:

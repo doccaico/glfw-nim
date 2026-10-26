@@ -17,7 +17,7 @@ Add `--path:glfw-nim` to the command line, or include the following in config.ni
 
 #### main.nim
 ```nim
-import glfw3
+import glfw
 
 proc main() =
   if glfwInit() != GLFW_TRUE:
